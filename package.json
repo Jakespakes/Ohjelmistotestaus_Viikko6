@@ -1,0 +1,17 @@
+{
+  "name": "viikko6",
+  "version": "1.0.0",
+  "description": "Viikko 6 viikkotehtävä",
+  "license": "ISC",
+  "author": "Jaakko Paitsola",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
